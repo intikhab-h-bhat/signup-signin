@@ -57,7 +57,8 @@ html {
 .circle {
   width: 3rem;
   height: 3rem;
-  background-color: #ffc94a;
+  /* background-color: #ffc94a; */
+  background-color: #190482;
   border-radius: 50%;
   margin-right: 1rem;
 }
@@ -72,12 +73,15 @@ html {
 .nav-item {
   font-size: 1.6rem;
   font-weight: bold;
-  color: #f0e3c1;
+  /* color: #f0e3c1; */
+  color: #190482;
   transition: color 0.3s;
 }
 
 .nav-item:hover {
-  color: #ffc94a;
+  /* color: #ffc94a; */
+  color: #c2d9ff;
+  text-shadow: #190482;
 }
 
 .banner {
@@ -105,7 +109,8 @@ html {
   font-size: 7rem;
   font-weight: bold;
   text-align: center;
-  color: #ffc94a;
+  /* color: #ffc94a; */
+  color: #190482;
   margin-top: 6rem;
   text-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
 }
