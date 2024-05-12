@@ -25,7 +25,7 @@ html {
 .landing {
   width: 95%;
   height: 90%;
-  background: linear-gradient(to right, #67c6e3 40%, rgba(0, 0, 0, 0)),
+  background: linear-gradient(to right, #67c6e3 40%, rgba(55, 39, 54, 0.3)),
     url(images/OIP.jpg) center no-repeat;
   border-radius: 2rem;
   box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.4);
@@ -80,7 +80,7 @@ html {
 
 .nav-item:hover {
   /* color: #ffc94a; */
-  color: #c2d9ff;
+  color: #fff;
 }
 
 .banner {
@@ -183,10 +183,9 @@ html {
 
 .input-group input:focus {
   /* background-color: #bb8493; */
-  background-color: #687eff;
+  background-color: #008dda;
   /* border: 0.2rem solid #f5dd54; */
   border: 0.2rem solid #b6fffa;
-  
 }
 
 .input-group i {
@@ -195,7 +194,7 @@ html {
   top: 50%;
   transform: translateY(-50%);
   font-size: 1.4rem;
-  color: #ccc;
+  color: #190482;
 }
 
 .btn-group {
@@ -221,10 +220,18 @@ html {
   /* background-color: #bb8493; */
   background-color: #008dda;
 }
+.contact-btn:nth-child(1):hover {
+  /* background-color: #bb8493; */
+  background-color: #dd5746;
+}
 
 .contact-btn:nth-child(2) {
   /* background-color: #ffc94a; */
-  background-color: #1c1678;
+  background-color: #03aed2;
+}
+.contact-btn:nth-child(2):hover {
+  /* background-color: #ffc94a; */
+  background-color: #dd5746;
 }
 
 .logo-bottom {
@@ -234,6 +241,6 @@ html {
   width: 6rem;
   height: 6rem;
   border-radius: 50%;
-  background-color: #008dda;
+  background-color: #190482;
   box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.3);
 }
